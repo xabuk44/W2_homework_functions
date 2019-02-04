@@ -1,8 +1,8 @@
 
 def roll_quantity (wall_length, wall_width, wall_height, wallpaper_length, wallpaper_width):
     """
-    >>> roll_quantity(5, 6, 2.75, 10, 1.06)
-    8
+    >>> roll_quantity(5, 6, 2.75, 10, 1.06) #doctest:+ELLIPSIS
+    8...
     """
     wall_height += 0.1
     room_perimetr = (wall_length + wall_width) * 2
