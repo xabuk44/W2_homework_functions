@@ -10,7 +10,6 @@ def roll_quantity (wall_length, wall_width, wall_height, wallpaper_length, wallp
     cloth_in_one_roll = int(wallpaper_length / wall_height)
     roll_quantity = int(cloth_quantity / cloth_in_one_roll) + 1
     return roll_quantity
-print ('You will need', roll_quantity(5, 6, 2.75, 10, 1.06), 'wallpaper rolls')
 
 if __name__ == "__main__":
     import doctest
